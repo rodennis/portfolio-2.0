@@ -10,7 +10,10 @@ li {
   text-decoration: none;
   display: inline-block;
   margin: 50px;
-  color: black;
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 ul {
