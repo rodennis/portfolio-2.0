@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div>
+    <div className='navbar'>
       <div className='line'></div>
       <ul>
       <Link to='/projects'><li>.Projects()</li></Link>

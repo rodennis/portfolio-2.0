@@ -1,15 +1,16 @@
 import './App.css';
-import CallToAction from './components/CallToAction/CallToAction';
-import Navbar from './components/Navbar/Navbar';
-import Socials from './components/Socials/Socials'
+import {Routes, Route} from 'react-router-dom'
+import HomePage from './components/HomePage/HomePage';
+import Projects from './components/Projects/Projects'
 import Background from './components/Background/Background';
 
 function App() {
   return (
     <div className="App">
-      <CallToAction />
-      <Socials />
-      <Navbar />
+      <Routes>
+        <Route path='/' element={<HomePage />}/>
+        <Route path='/projects' element={ <Projects />}/>
+      </Routes>
       <Background />
     </div>
   );

@@ -2,7 +2,6 @@
   margin: auto;
   width: 600px;
   border: 1px solid black;
-  margin-top: 100px;
   margin-bottom: -25px;
 }
 
@@ -14,6 +13,16 @@ li {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'rajdhani';
+  font-weight: 600;
+}
+
+.navbar {
+  position: absolute;
+  margin: auto;
+  bottom: 0px;
+  left: 0;
+  right: 0;
 }
 
 ul {
