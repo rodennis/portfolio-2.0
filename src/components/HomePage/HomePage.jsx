@@ -1,6 +1,5 @@
 import React from 'react'
 import CallToAction from '../CallToAction/CallToAction';
-import Navbar from '../Navbar/Navbar';
 import Socials from '../Socials/Socials'
 
 function HomePage() {
@@ -8,7 +7,6 @@ function HomePage() {
     <div>
       <CallToAction />
       <Socials />
-      <Navbar />
     </div>
   )
 }
