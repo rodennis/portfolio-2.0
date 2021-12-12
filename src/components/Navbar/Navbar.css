@@ -1,0 +1,18 @@
+.line {
+  margin: auto;
+  width: 600px;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: -25px;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 50px;
+  color: black;
+}
+
+ul {
+  padding: 0px;
+}
