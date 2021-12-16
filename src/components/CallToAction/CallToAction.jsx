@@ -1,5 +1,6 @@
 import React from 'react'
 import './CallToAction.css'
+import 'animate.css'
 
 function CallToAction() {
   return (

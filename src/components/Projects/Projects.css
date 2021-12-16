@@ -1,42 +1,63 @@
+.project-name {
+  margin-bottom: -100px;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 3rem;
+  column-gap: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.project-one {
-  flex: 1;
-  width: 400px;
-  height: 300px;
-  margin-top: 100px;
-  border: 2px solid white;
-}
-
-.project-one-video {
-    width:400px;
-
-}
-
-.project-two {
+.project-inview {
   flex: 1;
   width: 250px;
   height: 250px;
   margin-top: 100px;
-  border: 2px solid white;
+  opacity: 0;
+  transform: scale(85%);
+  transition: 2s;
 }
 
-.project-three {
-  flex: 1;
-  width: 250px;
-  height: 250px;
-  margin-top: 100px;
-  border: 2px solid white;
+.project-zoom {
+  opacity: 1;
+  transform: scale(100%);
+  transition: 2s;
 }
 
-.project-four {
-  flex: 1;
-  width: 250px;
-  height: 250px;
-  margin-top: 100px;
-  border: 2px solid white;
+.project1 {
+height: 100%;
+width: 100%;
+margin: 0px;
+border-radius: 10px;
+}
+
+.tech-stack {
+  opacity: 0;
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  border-radius: 10px;
+}
+
+.project-info {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 0px;
+  font-family: 'rajdhani';
+  font-weight: 600;
+}
+
+.tech-stack img {
+  width: 50px;
+  margin-top: -80px;
+}
+
+.tech-stack:hover {
+  opacity: 1;
+  transition: 2s;
+  background: -webkit-linear-gradient(white, #38495a);
 }

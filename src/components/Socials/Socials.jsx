@@ -7,9 +7,9 @@ import resume from '../Photos/curriculum.png'
 function Socials() {
   return (
     <div>
-      <a href="https://www.linkedin.com/in/rodney-todd-a676b4128/"><img src={linked} alt="linkedin" target='_blank'/></a>
-      <a href="https://github.com/rodennis?tab=repositories"><img src={ github } alt="github" target='_blank'/></a>
-      <a href=""><img src={ resume } alt="resume" target='_blank'/></a>
+      <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/rodney-todd-a676b4128/" ><img src={linked} alt="linkedin"/></a>
+      <a target='_blank' rel="noreferrer" href="https://github.com/rodennis?tab=repositories"><img src={ github } alt="github" /></a>
+      <a target='_blank' rel="noreferrer" href="https://www.overleaf.com/read/xvhmqcpvqxnc"><img src={ resume } alt="resume"/></a>
     </div>
   )
 }
