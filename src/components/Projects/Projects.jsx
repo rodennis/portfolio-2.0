@@ -16,7 +16,7 @@ function Projects() {
 
   return (
     <div>
-      <div className="name project-name animate__slideInLeft">
+      <div className="name project-name">
         Projects
       </div>
       <div className="projects">

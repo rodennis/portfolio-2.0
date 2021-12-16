@@ -1,12 +1,13 @@
 .name {
   font-size: 150px;
   font-family: 'rajdhani';
-  margin-bottom: 50px;
   padding-top: 50px;
   color: white;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: slideInDown; 
+  animation-duration: 1s
 }
 
 .about {
