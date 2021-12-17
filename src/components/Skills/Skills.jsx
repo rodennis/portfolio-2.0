@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div>
       <div className="name">
-        Projects
+        Skills
       </div>
     </div>
   )

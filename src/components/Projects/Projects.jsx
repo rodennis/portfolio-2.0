@@ -5,6 +5,9 @@ import react from '../Photos/react.png'
 import css from '../Photos/css.png'
 import pain from '../Photos/pain.png'
 import mui from '../Photos/mui.png'
+import html from '../Photos/html-5.png'
+import javascript from '../Photos/js-file.png'
+import etchASketch from '../Photos/etch-a-sketch.png'
 import 'animate.css/animate.css'
 
 
@@ -31,9 +34,15 @@ function Projects() {
           </div>
         </div>
         <div className={inView ? "project-inview project-zoom" : "project-inview"} ref={ref}>
+          <img className='project1' src={ etchASketch } alt="project" />
           <div className='tech-stack'>
-            <img src={ react } alt="" />
+            <p className='project-info'>This is a vanilla javascript, html, css project, where i was able to leverage javascript to create a dynamic game of etch-a-sketch. The player is able to choose from a black or random color, choose the size of the board to draw on, and draw whatever their imagination comes up with!</p>
+            <br/>
+            <br/>
+            <br/>
+            <img src={ html } alt="" />
             <img src={ css } alt="" />
+            <img src={ javascript } alt="" />
           </div>
         </div>
         <div className={inView ? "project-inview project-zoom" : "project-inview"} ref={ref}>
