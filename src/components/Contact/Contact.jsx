@@ -1,22 +1,24 @@
 import React from 'react'
 import './Contact.css'
+import { useInView } from 'react-intersection-observer';
 
 function Contact() {
+
+  const { ref, inView } = useInView({
+    threshold: 0.4,
+  });
+
   return (
     <div>
-      <div id="contact-me">
-        <div className='contact-form'>
-          <form onSubmit={ (e) => e.preventDefault()}method='POST' className='contactForm'>
+          <form className={inView ? "contactForm zoom" : "contactForm"} ref={ref}>
             <h2>Let's Talk</h2>
-            <input type="text" placeholder='First Name' id='firstName' name='firstName' required/>
-            <input id="lastName" type="text" name="lastName" placeholder="Last Name" required/>
-            <input id="email" type="text" name="email" placeholder="example@email.com" required />
-            <input id="phone" type="text" name="phoneNumber" placeholder="(000)000-0000" />
-            <textarea id="message" name="message" placeholder="Message..." id="message" cols="30" rows="10"></textarea>
-            <input type="submit" id="submit" class="submit" value="Send Message"/>
+            <input id="firstName" type="text" placeholder="First Name" required/>
+            <input id="lastName" type="text" placeholder="Last Name" required/>
+            <input id="email" type="text" placeholder="example@email.com" required />
+            <input id="phone" type="text" placeholder="(000)000-0000" />
+            <textarea id="message" placeholder="Message..." cols="30" rows="10"></textarea>
+            <input type="submit" id="submit" />
           </form>
-        </div>
-      </div>
     </div>
   )
 }

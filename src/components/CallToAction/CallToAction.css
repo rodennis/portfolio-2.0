@@ -6,8 +6,8 @@
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: slideInDown; 
-  animation-duration: 1s
+  animation: bounceInDown; 
+  animation-duration: 1s;
 }
 
 .about {
