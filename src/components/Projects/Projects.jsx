@@ -8,8 +8,8 @@ import mui from '../Photos/mui.png'
 import html from '../Photos/html-5.png'
 import javascript from '../Photos/js-file.png'
 import etchASketch from '../Photos/etch-a-sketch.png'
+import eventHandler from '../Photos/eventHandler.png'
 import 'animate.css/animate.css'
-
 
 function Projects() {
 
@@ -23,8 +23,8 @@ function Projects() {
         Projects
       </div>
       <div className="projects">
-
         <div className={inView ? "project-inview zoom" : "project-inview"} ref={ref}>
+        <a href="https://pain-workout.netlify.app/">
           <img className='project1' src={ pain } alt="project" />
           <div className='tech-stack'>
             <p className='project-info'>PAIN is an effective, to the point workout app. In the age of millions of apps on the web, ranging from overcomplicated, to not useful at all. PAIN is a straight to the point kind of app. You are given the choice to start a session, you will then provide what workouts you did that session. You will include, but not limited to, the exercise name, the weight, the amount of reps, sets and, the RPE. Leveraging the airtable api, so that you are able to edit, delete, or reflect on later the workouts you have completed.</p>
@@ -32,26 +32,39 @@ function Projects() {
             <img src={ css } alt="css" />
             <img src={ mui } alt="mui" />
           </div>
+        </a>
         </div>
         <div className={inView ? "project-inview zoom" : "project-inview"} ref={ref}>
+        <a href="https://rodennis.github.io/etch-a-sketch-1/">
           <img className='project1' src={ etchASketch } alt="project" />
           <div className='tech-stack'>
             <p className='project-info'>This is a vanilla javascript, html, css project, where i was able to leverage javascript to create a dynamic game of etch-a-sketch. The player is able to choose from a black or random color, choose the size of the board to draw on, and draw whatever their imagination comes up with!</p>
             <br/>
             <br/>
             <br/>
-            <img src={ html } alt="" />
-            <img src={ css } alt="" />
-            <img src={ javascript } alt="" />
+            <img src={ html } alt="html" />
+            <img src={ css } alt="css" />
+            <img src={ javascript } alt="javascript" />
           </div>
+        </a>
         </div>
         <div className={inView ? "project-inview zoom" : "project-inview"} ref={ref}>
-          <div className='tech-stack'>
-            <img src={ react } alt="" />
-            <img src={ css } alt="" />
+          <a href="https://rodennis.github.io/event-handler/">
+          <img className='project1' src={ eventHandler } alt="project" />
+            <div className='tech-stack'>
+              <p className='project-info'>
+                Event Handler is an event handling website, that leverages the Ticket Master API. A user is able to search for an event, see the name, minimum and maximum prices, date, and able to navigate to the Ticket Master website to purchase tickets to attend the event.
+              </p>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+            <img src={ html } alt="html" />
+            <img src={ css } alt="css" />
+            <img src={ javascript } alt="javascript" />
           </div>
+        </a>
         </div>
-      
       </div>
     </div>
   )

@@ -1,0 +1,30 @@
+.confMessage {
+  background: black;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  bottom: 300px;
+  border-radius: 10px;
+  font-size: 10px;
+  height: 150px;
+  animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.message {
+  color: white;
+  position: relative;
+  top: 25px;
+}

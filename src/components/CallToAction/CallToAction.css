@@ -7,7 +7,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: bounceInDown; 
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 .about {
