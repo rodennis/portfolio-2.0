@@ -1,0 +1,16 @@
+.skills {
+  height: 600px;
+}
+
+.skill-name {
+  font-size: 150px;
+  font-family: 'rajdhani';
+  padding-top: 50px;
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
+  animation: lightSpeedInLeft; 
+  animation-duration: 1s;
+}

@@ -1,14 +1,20 @@
 import React from 'react'
 import './CallToAction.css'
 import { Link } from 'react-router-dom' 
+import Selfie from '../Photos/Selfie.jpeg'
+import Socials from '../Socials/Socials'
   
 function CallToAction() {
   return (
     <div>
-      <div className='name'>
-      Rodney.T
-      </div>
+        <p className='top-intro'>RODNEY.T FULL STACK</p>
+        <p className='bottom-intro'>WEB DEVELOPER</p> 
       <div className='about'>
+        <div className='photo'>
+          <img className='selfie' src={ Selfie } alt="" />
+        </div>
+        <div className='about-me'>
+
         <p>
           Hey there, welcome to my Portfolio, my name is Rodney Todd. I am a full stack web developer, who enjoys every aspect of coding! One day I was sitting on my couch browsing the app store, and thought "hmm it would be interesting to build my own app". Ever since that day I have pursued web development.  
         </p>
@@ -18,8 +24,10 @@ function CallToAction() {
         <p>
           Hit that Button and let's talk!
         </p>
+          <button className='contact-link'> <Link className='Link' to='/contact'>Let's Talk</Link></button>
+          <Socials />
+        </div>
       </div>
-      <button className='contact-link'> <Link className='Link' to='/contact'>Get In Touch!</Link></button>
     </div>
   )
 }

@@ -6,32 +6,74 @@
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: bounceInDown; 
-  animation-duration: 1s;
 }
 
 .about {
+  display: flex;  
+  margin-top: -100px;
+}
+
+.selfie {
+  height: 600px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.photo {
+  justify-content: center;
+  flex: 1;
+}
+
+.about-me {
   width: 600px;
   margin: auto;
+  margin-right: 100px;
   color: white;
   font-family: 'rajdhani';
   font-weight: 600;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  flex: 1;
+  justify-content: center;
 }
 
 .contact-link {
   text-decoration: none;
-  padding: 15px;
+  padding: 25px 50px 25px 50px;
   border-radius: 10px;
   background: -webkit-linear-gradient(white, #38495a);
   color: black;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 5px;
   border-style: none;
   transition: transform .5s;
+  cursor: pointer;
 }
 
 .contact-link:hover {
   transform: scale(1.3);
 }
+
+.top-intro {
+  font-size: 150px;
+  font-family: 'rajdhani';
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  animation: lightSpeedInLeft; 
+  animation-duration: 1s;
+  margin-top: 100px;
+}
+
+.bottom-intro {
+  font-size: 150px;
+  font-family: 'rajdhani';
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: lightSpeedInRight; 
+  animation-duration: 1s;
+  margin-bottom: 200px;
+}
+

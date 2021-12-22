@@ -1,5 +1,7 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer';
+import 'animate.css'
+import './Skills.css'
 
 
 function Skills() {
@@ -9,8 +11,8 @@ function Skills() {
   });
   
   return (
-    <div>
-      <div className={inView ? "name animate" : "hidden"} ref={ ref }>
+    <div className='skills'>
+      <div className={inView ? 'skill-name' : 'hidden'} ref={ ref }>
         Skills
       </div>
       <div className='skills'>

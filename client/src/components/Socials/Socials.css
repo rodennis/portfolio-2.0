@@ -1,4 +1,4 @@
-img {
+.socials {
   width: 50px;
   margin-top: 50px;
   margin-bottom: -50px;
@@ -7,6 +7,6 @@ img {
   transition: transform .5s;
 }
 
-img:hover {
+.socials:hover {
   transform: scale(1.3);
 }

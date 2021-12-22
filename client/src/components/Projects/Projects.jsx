@@ -14,13 +14,15 @@ import 'animate.css'
 function Projects() {
 
   const { ref, inView } = useInView({
-    threshold: 0.4,
+    threshold: 0.01,
   });
 
   return (
     <div className='project-div'>
-      <div className={inView ? "name animate" : "hidden"} ref={ref}>
+      <div className='name-div'>
+      <div className='name'>
         Projects
+      </div>
       </div>
       <div className="projects">
         <div className={inView ? "project-inview zoom" : "project-inview"} ref={ref}>

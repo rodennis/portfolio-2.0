@@ -29,6 +29,9 @@ function Contact() {
 
   return (
     <div>
+      <div className={inView ? "contact-name" : "hidden"} ref={ref}>
+        Let's Talk
+      </div>
       <form onSubmit={ sendEmail } className={inView ? "contactForm zoom" : "contactForm"} ref={ref}>
             <h2>Let's Talk</h2>
             <input id="firstName" type="text" placeholder="First Name" name='firstName' required/>
