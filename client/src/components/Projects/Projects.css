@@ -1,5 +1,11 @@
-.project-name {
+.project-div {
+  margin-top: 50px;
+}
+
+.animate {
   margin-bottom: -100px;
+  animation: lightSpeedInLeft; 
+  animation-duration: 1s;
 }
 
 .projects {

@@ -9,7 +9,7 @@ import html from '../Photos/html-5.png'
 import javascript from '../Photos/js-file.png'
 import etchASketch from '../Photos/etch-a-sketch.png'
 import eventHandler from '../Photos/eventHandler.png'
-import 'animate.css/animate.css'
+import 'animate.css' 
 
 function Projects() {
 
@@ -18,8 +18,8 @@ function Projects() {
   });
 
   return (
-    <div>
-      <div className="name project-name">
+    <div className='project-div'>
+      <div className={inView ? "name animate" : "hidden"} ref={ref}>
         Projects
       </div>
       <div className="projects">
