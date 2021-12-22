@@ -24,7 +24,7 @@ function CallToAction() {
         <p>
           Hit that Button and let's talk!
         </p>
-          <button className='contact-link'> <Link className='Link' to='/contact'>Let's Talk</Link></button>
+        <Link className='Link' to='/contact'><button className='contact-link'> Contact Me!</button></Link>
           <Socials />
         </div>
       </div>

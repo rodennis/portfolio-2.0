@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-  overflow: scroll;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+html {
+  padding: 0px;
 }
 
 .hidden {
