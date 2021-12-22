@@ -24,6 +24,18 @@
   flex: 1;
 }
 
+.about-title {
+  font-size: 100px;
+  font-family: 'rajdhani';
+  padding-top: 50px;
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -100px;
+  margin-bottom: 0px;
+}
+
 .about-me {
   width: 600px;
   margin: auto;

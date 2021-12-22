@@ -14,7 +14,7 @@ function CallToAction() {
           <img className='selfie' src={ Selfie } alt="" />
         </div>
         <div className='about-me'>
-
+          <h1 className='about-title'>About</h1>
         <p>
           Hey there, welcome to my Portfolio, my name is Rodney Todd. I am a full stack web developer, who enjoys every aspect of coding! One day I was sitting on my couch browsing the app store, and thought "hmm it would be interesting to build my own app". Ever since that day I have pursued web development.  
         </p>
