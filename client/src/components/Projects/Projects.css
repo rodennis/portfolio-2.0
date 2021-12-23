@@ -41,17 +41,20 @@
 height: 100%;
 width: 100%;
 margin: 0px;
-border-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 8px 0px;
+
 }
 
-.tech-stack {
-  opacity: 0;
-  color: white;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  border-radius: 10px;
+.tech-stack-div {
+ background-color: white;
+ margin-top: -17px;
+ height: 300px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 8px 0px;
+
 }
 
 .project-info {
@@ -60,15 +63,12 @@ border-radius: 10px;
   margin-bottom: 0px;
   font-family: 'rajdhani';
   font-weight: 600;
+  padding: 30px;
+  
 }
 
-.tech-stack img {
+.tech-stack-div img {
   width: 50px;
-  margin-top: -80px;
-}
-
-.tech-stack:hover {
-  opacity: 1;
-  transition: 2s;
-  background: -webkit-linear-gradient(white, #38495a);
+  padding-left: 20px;
+  padding-right: 20px;
 }

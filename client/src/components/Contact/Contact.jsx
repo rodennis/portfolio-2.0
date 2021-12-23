@@ -4,9 +4,12 @@ import { useInView } from 'react-intersection-observer';
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 import ConfMessage from '../ConfMessage/ConfMessage';
+import Arrow from '../Photos/left-arrow.png'
+import {useNavigate} from 'react-router-dom'
 
 function Contact() {
   
+  const navigate = useNavigate()
   const userID = process.env.REACT_APP_USER_ID
   const [toggle, setToggle] = useState(false)
 
@@ -27,8 +30,13 @@ function Contact() {
     threshold: 0.4,
   });
 
+  const handleSubmit = () => {
+    navigate('/')
+  }
+
   return (
-    <div>
+    <div className='contact-div'>
+      <button type='button' onClick={ handleSubmit }className='back-button'><img className='back-arrow' src={ Arrow} alt="" /></button>
       <div className={inView ? "contact-name" : "hidden"} ref={ref}>
         Let's Talk
       </div>

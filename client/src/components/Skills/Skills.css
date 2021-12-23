@@ -1,5 +1,5 @@
-.skills {
-  height: 600px;
+.skills-div {
+  margin-top: 350px;
 }
 
 .skill-name {
@@ -13,4 +13,20 @@
   margin-top: 100px;
   animation: lightSpeedInLeft; 
   animation-duration: 1s;
+}
+
+.skills {
+  display: flex;
+}
+
+.front-end {
+  flex: 1;
+}
+
+.back-end {
+  flex: 1;
+}
+
+.libraries {
+  flex: 1;
 }

@@ -1,3 +1,20 @@
+.contact-div {
+  height: 100vh;
+}
+
+.back-button {
+  border-radius: 10px;
+  border-style: none;
+  position: absolute;
+  left: 0px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.back-arrow {
+  height: 20px;
+}
+
 .contact-name {
   font-size: 100px;
   font-family: 'rajdhani';
