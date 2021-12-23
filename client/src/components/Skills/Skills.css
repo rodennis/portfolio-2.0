@@ -1,5 +1,5 @@
 .skills-div {
-  margin-top: 350px;
+  margin-top: 300px;
 }
 
 .skill-name {
@@ -10,23 +10,57 @@
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 100px;
   animation: lightSpeedInLeft; 
   animation-duration: 1s;
 }
 
 .skills {
   display: flex;
+  column-gap: 5rem;
+  padding: 50px 150px 100px 150px;
 }
 
-.front-end {
+.tech-stack-divs {
+  flex: 1;
+  height: 500px;
+  max-width: 300px;
+}
+
+.tech-stack-name {
+  font-size: 50px;
+  font-family: 'rajdhani';
+  color: white;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.skill-div {
+  display: flex;
+  height: 100px;
+}
+
+.skill-image-div {
   flex: 1;
 }
 
-.back-end {
-  flex: 1;
+.skill-image {
+  width: 50px;
+  margin-top: 50px;
+  display: block;
+  padding-left: 20px;
 }
 
-.libraries {
+.single-skill-name {
+  
+  color: white;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-top: 15px;
+  font-size: 2.5rem;
+  height: 150px;
   flex: 1;
+  font-family: 'rajdhani';
+
 }

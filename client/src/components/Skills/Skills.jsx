@@ -1,35 +1,19 @@
 import React from 'react'
-import { useInView } from 'react-intersection-observer';
-import 'animate.css'
 import './Skills.css'
+import FrontEnd from '../FrontEnd/FrontEnd'
+import BackEnd from '../BackEnd/Backend'
+import Libraries from '../Libraries/Libraries'
 
-
-function Skills() {
-
-  const { ref, inView } = useInView({
-    threshold: 0.4,
-  });
-  
+function Skills() {  
   return (
     <div className='skills-div'>
       <div className='skill-name'>
         Skills
       </div>
     <div className='skills'>
-      <div className='skills'>
-        <div className='front-end'>
-          {/* <img src={} alt="" />
-          <img src={} alt="" />
-          <img src={} alt="" />
-          <img src={} alt="" /> */}
-        </div>
-        <div className='back-end'>
-
-        </div>
-        <div className='libraries'>
-
-        </div>
-      </div>
+      <FrontEnd />
+      <BackEnd />
+      <Libraries />
     </div>
     </div>
   )
