@@ -1,9 +1,6 @@
 import React from 'react'
-import frontEnd from '../FrontEnd/FrontEnd'
 import react from '../Photos/react.png'
 import css from '../Photos/css.png'
-import pain from '../Photos/pain.png'
-import mui from '../Photos/mui.png'
 import html from '../Photos/html-5.png'
 import javascript from '../Photos/js-file.png'
 
