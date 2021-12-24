@@ -15,3 +15,11 @@ html {
   text-decoration: none;
   color: black;
 }
+
+
+@media (max-width: 600px) {
+  html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+}
