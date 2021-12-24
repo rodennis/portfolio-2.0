@@ -102,6 +102,9 @@ box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 8px 0px;
 
   .project-info-mobile {
     padding-bottom: 15px;
+  }
+
+  .project-info {
     padding-top: 5px;
   }
 }
