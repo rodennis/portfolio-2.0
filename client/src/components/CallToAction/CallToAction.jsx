@@ -1,7 +1,7 @@
 import React from 'react'
 import './CallToAction.css'
 import { Link } from 'react-router-dom' 
-import Selfie from '../Photos/Selfie.jpeg'
+import Selfie from '../Photos/self.jpg'
 import Socials from '../Socials/Socials'
   
 function CallToAction() {
