@@ -8,8 +8,9 @@ import mui from '../Photos/mui.png'
 import html from '../Photos/html-5.png'
 import javascript from '../Photos/js-file.png'
 import etchASketch from '../Photos/etch-a-sketch.png'
-import eventHandler from '../Photos/eventHandler.png'
 import node from '../Photos/nodejs.png'
+import RNLH from '../Photos/RNLH.png'
+import mongoose from '../Photos/mongoose.png'
 import 'animate.css' 
 
 function Projects() {
@@ -54,20 +55,19 @@ function Projects() {
           </div>
         </div>
         <div className={inView ? "project-inview zoom" : "project-inview"} ref={ref}>
-          <a href="https://rodennis.github.io/event-handler/">
-          <img className='project1' src={ eventHandler } alt="project" />
+          <a href="https://github.com/rodennis/RNLH">
+          <img className='project1' src={ RNLH } alt="project" />
         </a>
             <div className='tech-stack-div'>
               <p className='project-info'>
-                Event Handler is an event handling website, that leverages the Ticket Master API. A user is able to search for an event, see the name, minimum and maximum prices, date, and able to navigate to the Ticket Master website to purchase tickets to attend the event.
+                RNLH is a luxurious second hand Web store. A user when first landing on the page has a chance to view products in the store, or create an account. If a user creates an account, they are then opened to features such as creating a post to sell an item, editing their item, and deleting their item. A user is able to set a location, condition, name, price, description, and a picture of the image.
             </p>
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <img src={ html } alt="html" />
+            <img src={ react } alt="react" />
             <img src={ css } alt="css" />
-            <img src={ javascript } alt="javascript" />
+            <img src={ node } alt="node" />
+            <img src={ mongoose } alt="mongoose" />
           </div>
         </div>
       </div>
