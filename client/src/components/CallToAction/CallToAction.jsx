@@ -7,8 +7,8 @@ import Socials from '../Socials/Socials'
 function CallToAction() {
   return (
     <div>
-        <p className='top-intro'>RODNEY.T FULL STACK</p>
-        <p className='bottom-intro'>WEB DEVELOPER</p> 
+        <p className='top-intro'>RODNEY .T</p>
+        <p className='bottom-intro'>SOFTWARE ENGINEER</p> 
       <div className='about'>
         <div className='photo'>
           <img className='selfie' src={ Selfie } alt="" />
