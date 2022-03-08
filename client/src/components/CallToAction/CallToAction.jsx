@@ -16,11 +16,11 @@ function CallToAction() {
         <div className="about-me">
           <h1 className="about-title">About</h1>
           <p>
-            Hey there, welcome to my Portfolio, my name is Rodney Todd. I am a
-            full stack web developer, who enjoys every aspect of coding! One day
+            Hey there, welcome to my Portfolio, my name is Rodney Todd. I'm a
+            software engineer, who enjoys every aspect of coding! One day
             I was sitting on my couch browsing the app store, and thought "hmm
             it would be interesting to build my own app". Ever since that day I
-            have pursued web development.
+            have had a love for web development.
           </p>
           <p>
             I love the easy times of coding, but I also love the times when
