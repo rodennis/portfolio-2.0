@@ -1,8 +1,8 @@
 import React from 'react'
 import './Socials.css'
-import linked from '../Photos/linkedin.png'
-import github from '../Photos/github.png'
-import resume from '../Photos/curriculum.png'
+import linked from '../Photos/linkedin.svg'
+import github from '../Photos/github.svg'
+import resume from '../Photos/resume.svg'
 
 function Socials() {
   return (

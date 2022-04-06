@@ -60,16 +60,39 @@ box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 8px 0px;
   font-size: 15px;
   color: black;
   margin-bottom: 0px;
-  font-family: 'rajdhani';
-  font-weight: 600;
-  padding: 30px;
-  
+  font-family: 'Open Sans';
+  padding: 10px 30px;
 }
 
 .tech-stack-div img {
   width: 50px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.live-site {
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  background: #38495a;
+  color: black;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.github-repository {
+  text-decoration: none;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  background: #38495a;
+  color: black;
+  border-style: none;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  color: white;
 }
 
 @media (max-width: 600px) {
@@ -85,15 +108,12 @@ box-shadow: rgba(255, 255, 255, 0.2) 0px 3px 8px 0px;
 
   .project-inview {
     opacity: 1;
-    transform: none;
-    
+    transform: none;  
   }
 
-  
   .project1 {
     width: 100vw;
     height: 250px;
-   
   }
 
   .tech-stack-div {

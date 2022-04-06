@@ -1,8 +1,6 @@
-import React from 'react'
-import react from '../Photos/react.png'
-import css from '../Photos/css.png'
-import html from '../Photos/html-5.png'
-import javascript from '../Photos/js-file.png'
+import React from '../Photos/react.png'
+import Ruby from '../Photos/ruby.png'
+import Javascript from '../Photos/js-file.png'
 
 function FrontEnd() {
   return (
@@ -12,27 +10,21 @@ function FrontEnd() {
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={react} alt="" />
-      </div>
-        <p className='single-skill-name'>React</p>
-    </div>
-    <div className='skill-div'>
-      <div className='skill-image-div'>
-        <img className='skill-image' src={javascript} alt="" />
+        <img className='skill-image' src={Javascript} alt="" />
       </div>
         <p className='single-skill-name'>Javascript</p>
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={html} alt="" />
+        <img className='skill-image' src={React} alt="" />
       </div>
-        <p className='single-skill-name'>HTML</p>
+        <p className='single-skill-name'>React</p>
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={css} alt="" />
+        <img className='skill-image' src={Ruby} alt="" />
       </div>
-        <p className='single-skill-name'>CSS</p>
+        <p className='single-skill-name'>Ruby</p>
     </div>
   </div>
   )

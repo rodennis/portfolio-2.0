@@ -53,9 +53,14 @@ input {
   border: 1px solid gray;
 }
 
+input::placeholder {
+  padding-left: 10px;
+}
+
 #firstName {
   margin-left: 0px;
   margin-top: 40px;
+  margin-right: 10px;
 }
 
 #email {
@@ -68,23 +73,25 @@ input {
 }
 #message {
   margin-top: 30px;
-  width: 310px;
+  width: 295px;
   height: 10px;
   padding-bottom: 90px;
   border-radius: 5px;
   resize: none;
-}
-
-textarea::placeholder {
-  padding: 5px;
+  padding-left: 15px;
+  padding-top: 5px;
 }
 
 #submit {
-  border-radius: 20px;
-  border: 1px solid gray;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  background: #38495a;
+  color: black;
+  border-style: none;
+  cursor: pointer;
+  font-family: 'Open Sans';
   color: white;
-  background: gray;
-  padding: 5px;
   margin-top: 15px;
 }
 

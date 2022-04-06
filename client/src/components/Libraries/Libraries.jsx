@@ -2,7 +2,7 @@
 import React from 'react'
 import MUI from '../Photos/mui.png'
 import Mongoose from '../Photos/mongoose.png'
-import Bootstrap from '../Photos/bootstrap.png'
+import Express from '../Photos/express.svg'
 
 
 
@@ -14,7 +14,7 @@ function Libraries() {
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-      <img className='skill-image' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+      <img className='skill-image' src={Express} />
       </div>
         <p className='single-skill-name'>Express</p>
     </div>
@@ -27,9 +27,10 @@ function Libraries() {
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={Bootstrap} alt="" />
+      <img className='skill-image' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+
       </div>
-        <p className='single-skill-name'>Bootstrap</p>
+        <p className='single-skill-name'>Tailwindcss</p>
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>

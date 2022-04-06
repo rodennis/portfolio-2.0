@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Node from '../Photos/nodejs.png'
-import MySQL from '../Photos/mysql.png'
+import Postgre from '../Photos/postgre.png'
 
 
 function BackEnd() {
@@ -24,9 +24,9 @@ function BackEnd() {
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={MySQL} alt="" />
+        <img className='skill-image' src={Postgre} alt="" />
       </div>
-        <p className='single-skill-name'>MySQL</p>
+        <p className='single-skill-name'>PostgreSQL</p>
     </div>
   </div>
   )

@@ -41,8 +41,7 @@
   margin: auto;
   margin-right: 100px;
   color: white;
-  font-family: 'rajdhani';
-  font-weight: 600;
+  font-family: 'Open Sans';
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -61,6 +60,9 @@
   border-style: none;
   transition: transform .5s;
   cursor: pointer;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .contact-link:hover {

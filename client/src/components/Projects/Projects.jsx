@@ -23,7 +23,7 @@ function Projects() {
         >
           <img className="project1" src={pain} alt="project" />
           <div className="tech-stack-div">
-            <p className="project-info project-info-mobile">
+            <p className="project-info">
               PAIN is an effective, to the point workout app. In the age of
               millions of apps on the web, ranging from overcomplicated, to not
               useful at all. PAIN is a straight to the point kind of app. You
@@ -39,15 +39,14 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Live Site
+              <button className="live-site">Live Site</button>
             </a>
-            <br />
             <a
               href="https://github.com/rodennis/pain"
               target="_blank"
               rel="noreferrer"
             >
-              Github Repository
+              <button className='github-repository'>Github Repository</button>
             </a>
           </div>
         </div>
@@ -72,15 +71,14 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Live Site
+              <button  className="live-site">Live Site</button>
             </a>
-            <br />
             <a
               href="https://github.com/rodennis/HCF-review"
               target="_blank"
               rel="noreferrer"
             >
-              Github Reposity
+              <button className='github-repository'>Github Repository</button>
             </a>
           </div>
         </div>
@@ -106,15 +104,14 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              Live Site
+              <button className="live-site">Live Site</button>
             </a>
-            <br />
             <a
               href="https://github.com/rodennis/RNLH"
               target="_blank"
               rel="noreferrer"
             >
-              Github Repository
+              <button className='github-repository'>Github Repository</button>
             </a>
           </div>
         </div>
