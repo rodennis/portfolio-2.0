@@ -1,12 +1,19 @@
 import React from '../Photos/react.png'
-import Ruby from '../Photos/ruby.png'
+import Typescript from '../Photos/typescript.png'
 import Javascript from '../Photos/js-file.png'
+import Sass from '../Photos/sass.png'
 
 function FrontEnd() {
   return (
     <div className='tech-stack-divs'>
     <div className='tech-stack-name'>
       Front End
+    </div>
+    <div className='skill-div'>
+      <div className='skill-image-div'>
+        <img className='skill-image' src={Typescript} alt="" />
+      </div>
+        <p className='single-skill-name'>Typescript</p>
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
@@ -22,9 +29,9 @@ function FrontEnd() {
     </div>
     <div className='skill-div'>
       <div className='skill-image-div'>
-        <img className='skill-image' src={Ruby} alt="" />
+        <img className='skill-image' src={Sass} alt="" />
       </div>
-        <p className='single-skill-name'>Ruby</p>
+        <p className='single-skill-name'>Sass</p>
     </div>
   </div>
   )

@@ -18,13 +18,12 @@
   display: flex;
   column-gap: 5rem;
   justify-content: space-evenly;
-  /* padding: 50px 150px 100px 150px; */
 }
 
 .tech-stack-divs {
   flex: 1;
-  height: 500px;
   max-width: 300px;
+  margin-bottom: 2rem;
 }
 
 .tech-stack-name {

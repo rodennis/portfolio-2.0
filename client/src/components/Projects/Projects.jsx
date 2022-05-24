@@ -3,7 +3,7 @@ import "./Projects.css";
 import { useInView } from "react-intersection-observer";
 import pain from "../Photos/pain.png";
 import hcfreviews from "../Photos/hcf-reviews.png";
-import RNLH from "../Photos/RNLH.png";
+import kanban from "../Photos/kanban.png";
 import "animate.css";
 
 function Projects() {
@@ -86,28 +86,25 @@ function Projects() {
           className={inView ? "project-inview zoom" : "project-inview"}
           ref={ref}
         >
-          <img className="project1" src={RNLH} alt="project" />
+          <img className="project1" src={kanban} alt="project" />
           <div className="tech-stack-div">
             <p className="project-info">
-              RNLH is a luxurious second hand Web store. A user when first
-              landing on the page has a chance to view products in the store, or
-              create an account. If a user creates an account, they are then
-              opened to features such as creating a post to sell an item,
-              editing their item, and deleting their item. A user is able to set
-              a location, condition, name, price, description, and a picture of
-              the image. Created with React for the front-end, and Nodejs for
-              the backend along with Express, Mongoose, and MongoDB for the
-              database.
+              Bankan is a desktop only kanban board created with typescript and sass. 
+              A user is able to create a board for different projects. Inside 
+              each board a user is able to create lists, which allow you to add tasks, 
+              and move them between lists depending on the status of the task. A user 
+              is also able to delete boards and lists. It leverages the React-beautiful-DND 
+              to allow users to drag and drop tasks between boards. <br /><br /><br />
             </p>
             <a
-              href="https://rnlh.netlify.app/"
+              href="bankan-board.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
               <button className="live-site">Live Site</button>
             </a>
             <a
-              href="https://github.com/rodennis/RNLH"
+              href="https://github.com/rodennis/Kanban-board"
               target="_blank"
               rel="noreferrer"
             >
