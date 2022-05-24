@@ -97,7 +97,7 @@ function Projects() {
               to allow users to drag and drop tasks between boards. <br /><br /><br />
             </p>
             <a
-              href="bankan-board.netlify.app"
+              href="https://bankan-board.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
